@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "BSHSTV",
+    "description": "No description",
+    "slug": "BSHSTV",
+    "privacy": "public",
+    "sdkVersion": "20.0.0",
+    "version": "3.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./images/AppIcon.png",
+    "notification": {
+      "icon": "./images/AppIcon.png",
+      "color": "#388e3c"
+    },
+    "loading": {
+      "icon": "./images/AppIcon.png",
+      "hideExponentText": false
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf"]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.brendanmanning.channel2"
+    }
+  }
+}
