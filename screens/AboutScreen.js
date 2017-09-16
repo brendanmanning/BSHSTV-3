@@ -19,7 +19,7 @@ export default class AboutScreen extends React.Component {
         return (
             <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
                 <Text style={styles.big}>Ch2 (Channel 2) - Version 3</Text>
-                <Text style={styles.text}>Version 3.0.1</Text>
+                <Text style={styles.text}>Version 3.0.2</Text>
                 <Button title={"View Open Source Attributions"} color={AppConfig.Colors.PRIMARY} onPress={ function() { WebBrowser.openBrowserAsync('https://goo.gl/wgmBC6') } }/>
             </View>
         )

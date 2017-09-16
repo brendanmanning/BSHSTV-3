@@ -11,5 +11,12 @@ export const Lexicon = {
   'Robotics Club': 'Organization',
   'Mock Trial': 'Organization',
   'DECCA': 'Organization',
-  'Cast and Crew': 'Organization'
+  'Cast and Crew': 'Organization',
+  'Shanaviews': 'Organization',
+  'Mixed Chorus': 'Organization',
+  'Private Lessons': 'Organization'
 }
+
+export const LexiconOverrides = [
+  'Footloose'
+]

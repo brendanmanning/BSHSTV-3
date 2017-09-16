@@ -29,7 +29,7 @@ export default class AnnouncementsGridView extends React.Component {
       ds.push(announcement);
 
       ds.sort(function(a1, a2) {
-        return a1.getPriority() - a2.getPriority();
+        return -(a1.getPriority() - a2.getPriority());
       })
 
       this.setState({
