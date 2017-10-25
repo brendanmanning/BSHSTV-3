@@ -14,7 +14,7 @@
       "color": "#388e3c"
     },
     "loading": {
-      "icon": "./images/AppIcon.png",
+      "icon": "./images/AppIconCircle.png",
       "hideExponentText": false
     },
     "packagerOpts": {

@@ -7,12 +7,16 @@ import Colors from '../constants/Colors';
 
 import HomeScreen from '../screens/HomeScreen';
 import { GameScreen } from '../screens/GameScreen'
+import PhotosScreen from '../screens/PhotosScreen';
 import GamesList from '../screens/GamesList';
 
 export default TabNavigator(
   {
     Home: {
       screen: HomeScreen,
+    },
+    Photos: {
+      screen: PhotosScreen
     },
     Sports: {
       screen: GamesList
@@ -32,6 +36,11 @@ export default TabNavigator(
               ? `ios-paper${focused ? '' : '-outline'}`
               : 'md-information-circle';
             break;
+          case 'Photos':
+            iconName = Platform.OS === 'ios'
+            ? `ios-camera${focused ? '' : '-outline'}`
+            : 'md-camera';
+        break;
           case 'Sports':
             iconName = Platform.OS === 'ios'
               ? `ios-american-football${focused ? '' : '-outline'}`

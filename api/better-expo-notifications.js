@@ -148,7 +148,7 @@ export default class BetterExpoNotifications {
 
   // MARK: - AsyncStorage methods
 
-  // Were notifications enabled int he past?
+  // Were notifications enabled in the past?
   notificationsEnabled(callback) {
     AsyncStorage.getItem('@BEN:NotificationsEnabled', function(error, value) {
       callback ( value == true );
